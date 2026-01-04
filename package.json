@@ -1,18 +1,17 @@
 {
   "name": "@ujjawal/customer-analytics-plugin",
   "version": "0.0.1",
-  "description": "A starter for Medusa plugins.",
+  "description": "Customer analytics plugin for Medusa v2 - Track customer orders, lifetime value, and purchase behavior.",
   "author": "Ujjawal",
   "license": "MIT",
+  "displayName": "Customer Analytics Plugin",
   "files": [
     ".medusa/server"
   ],
-  "exports": {
+   "exports": {
     "./package.json": "./package.json",
-    "./workflows": "./.medusa/server/src/workflows/index.js",
     "./.medusa/server/src/modules/*": "./.medusa/server/src/modules/*/index.js",
     "./modules/*": "./.medusa/server/src/modules/*/index.js",
-    "./providers/*": "./.medusa/server/src/providers/*/index.js",
     "./*": "./.medusa/server/src/*.js",
     "./admin": {
       "import": "./.medusa/server/src/admin/index.mjs",
@@ -36,10 +35,10 @@
     "@medusajs/admin-sdk": "2.12.3",
     "@medusajs/cli": "2.12.3",
     "@medusajs/framework": "2.12.3",
+    "@medusajs/icons": "2.12.3",
     "@medusajs/medusa": "2.12.3",
     "@medusajs/test-utils": "2.12.3",
     "@medusajs/ui": "4.0.25",
-    "@medusajs/icons": "2.12.3",
     "@swc/core": "1.5.7",
     "@types/node": "^20.0.0",
     "@types/react": "^18.3.2",
@@ -56,10 +55,10 @@
     "@medusajs/admin-sdk": "2.12.3",
     "@medusajs/cli": "2.12.3",
     "@medusajs/framework": "2.12.3",
-    "@medusajs/test-utils": "2.12.3",
+    "@medusajs/icons": "2.12.3",
     "@medusajs/medusa": "2.12.3",
-    "@medusajs/ui": "4.0.25",
-    "@medusajs/icons": "2.12.3"
+    "@medusajs/test-utils": "2.12.3",
+    "@medusajs/ui": "4.0.25"
   },
   "engines": {
     "node": ">=20"
