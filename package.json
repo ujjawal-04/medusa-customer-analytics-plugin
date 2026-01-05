@@ -1,5 +1,5 @@
 {
-  "name": "@ujjawal/customer-analytics-plugin",
+  "name": "customer-analytics-plugin",
   "version": "0.0.1",
   "description": "Customer analytics plugin for Medusa v2 - Track customer orders, lifetime value, and purchase behavior.",
   "author": "Ujjawal",
