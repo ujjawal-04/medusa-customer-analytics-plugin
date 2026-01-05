@@ -76,3 +76,7 @@ yalc publish
 yalc add customer-analytics-plugin
 yarn install
 ```
+## Contributing
+
+I welcome contributions and feedback.
+To get involved, [open an issue](https://github.com/ujjawal-04/medusa-customer-analytics-plugin/issues) or [submit a pull request](https://github.com/ujjawal-04/medusa-customer-analytics-plugin/pulls) on [GitHub →](https://github.com/ujjawal-04/medusa-customer-analytics-plugin)
