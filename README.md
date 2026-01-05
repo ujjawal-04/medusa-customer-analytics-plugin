@@ -16,35 +16,63 @@
 The Medusa Customer-Analytics Plugin is a Plugin for the Medusa Admin dashboard. It provides Insights to customer - Track customer orders, lifetime value, and purchase behavior all accessible directly within the Medusa Admin panel.
 
 
-## Getting Started
+## Features
 
-1. **Install the plugin** in your Medusa project:
-   ```bash
-   yarn add customer-analytics-plugin
-   ```
-2. **Add the plugin** to your Medusa backend configuration. In `medusa-config.ts`, add the following to the `plugins` array:
+- **Real-time Analytics**: Fetches and calculates metrics from actual order data
+- **Comprehensive Metrics**:
+  - Total Orders Count
+  - Lifetime Value
+  - Average Order Value
+  - Total Spent
+  - First Order Date
+  - Last Order Date
+  - Days Since Last Order
+- **Admin Dashboard Widget**: Beautiful, responsive widget displayed on customer detail pages
+- **Automatic Tracking**: Automatically records and updates metrics when orders are placed
 
-   ```js
-   plugins: [
-     {
-       resolve: 'customer-analytics-plugin',
-       options: {},
-     },
-     // ...other plugins
-   ],
-   ```
+## Installation
 
-3. **Install dependencies:**
-   ```bash
-   yarn
-   ```
-4. **Start your Medusa server:**
-   ```bash
-   yarn dev
-   ```
-5. **Access the Giftcard page** from the Medusa Admin dashboard.
+```bash
+npm install customer-analytics-plugin
+# or
+yarn add customer-analytics-plugin
+```
 
-## Contributing
+## Configuration
 
-I welcome contributions and feedback.
-To get involved, [open an issue](https://github.com/Agilo/medusa-analytics-plugin/issues) or [submit a pull request](https://github.com/Agilo/medusa-analytics-plugin/pulls) on [GitHub →](https://github.com/Agilo/medusa-analytics-plugin)
+Add the plugin to your `medusa-config.ts`:
+
+```typescript
+  
+  plugins: [
+    {
+      resolve: "customer-analytics-plugin",
+      options: {},
+    }
+  ],
+```
+
+## Usage
+
+Once installed and configured, the plugin will:
+
+1. Automatically display a "Customer Analytics" widget on each customer's detail page in the Medusa admin
+2. Fetch real order data and calculate comprehensive metrics
+3. Display metrics in a beautiful, easy-to-read dashboard
+
+
+## Development
+
+To develop locally:
+
+```bash
+# Build the plugin
+yarn build
+
+# Publish with yalc for local testing
+yalc publish
+
+# In your Medusa project
+yalc add customer-analytics-plugin
+yarn install
+```
