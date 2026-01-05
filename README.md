@@ -13,7 +13,7 @@
 
 ## Overview
 
-The Medusa Customer-Analytics Plugin is a Plugin for the Medusa Admin dashboard. It provides Insights to customer - Track customer orders, lifetime value, and purchase behavior all accessible directly within the Medusa Admin panel.
+A comprehensive customer analytics plugin for Medusa v2 that provides real-time insights into customer behavior and purchasing patterns.
 
 
 ## Features
