@@ -51,7 +51,14 @@ Add the plugin to your `medusa-config.ts`:
     }
   ],
 ```
-
+##Install dependencies
+   ```bash
+   yarn
+   ```
+##Start your Medusa server
+   ```bash
+   yarn dev
+   ```
 ## Usage
 
 Once installed and configured, the plugin will:
