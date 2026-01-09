@@ -60,22 +60,6 @@ Once installed and configured, the plugin will:
 2. Fetch real order data and calculate comprehensive metrics
 3. Display metrics in a beautiful, easy-to-read dashboard
 
-
-## Development
-
-To develop locally:
-
-```bash
-# Build the plugin
-yarn build
-
-# Publish with yalc for local testing
-yalc publish
-
-# In your Medusa project
-yalc add customer-analytics-plugin
-yarn install
-```
 ## Contributing
 
 I welcome contributions and feedback.
